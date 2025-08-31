@@ -6,7 +6,7 @@ This project is both a midi latcher (i.e. it holds the notes/chords you played u
 
 ## Usage as pure midi latcher
 
-To use the plugin as a pure midi latcher, you have to do nothing. Just add the plugin as a midi FX into the signal chain of your favorite DAW and you should be ready to go. 
+To use the plugin as a pure midi latcher, you have to do nothing. Just add the plugin as a midi FX into the signal chain of your favorite DAW and you should be ready to go. The function of the midi latcher is to inhibit note-off messages until there is a new note-on message, so that even if you release the key on the midi controller, the note keeps playing until you play another note. It is also possible to latch chords, for that the plugin considers all notes that you press down simultaneously before you start releasing any notes as part of the chord.
 
 ## Usage with pedalboard
 
