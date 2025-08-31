@@ -2,6 +2,8 @@
 
 This project is both a midi latcher (i.e. it holds the notes/chords you played until you play the next chord) and a midi mapper for a pedalboard that sends program change events (e.g. the Behringer FCB1010). This plugin uses [JUCE](juce.com) as a framework, and you will need it to build (you can get it for free with the GPL License).
 
+![screenshot](screenshot.png)
+
 ## Usage as pure midi latcher
 
 To use the plugin as a pure midi latcher, you have to do nothing. Just add the plugin as a midi FX into the signal chain of your favorite DAW and you should be ready to go. 
